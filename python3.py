@@ -1,0 +1,5 @@
+n=set(input(""))-set(' ')
+C=set(input(""))-set(' ')
+A=set(input(""))-set(' ')
+B=set(input(""))-set(' ')
+print(len(C-(C-A))-len(C-(C-B)))
